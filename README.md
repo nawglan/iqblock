@@ -3,7 +3,7 @@
 Given the contest.json input file, output as many unique combinations of
 pieces, that fill the grid up completely, as you can in 5 minutes.
 
-## Example output:
+## Example Output
 
 ```
 # 1
@@ -26,5 +26,7 @@ pieces, that fill the grid up completely, as you can in 5 minutes.
 94444777
 ```
 
-Note: Each piece can be rotated and/or flipped from the orientation in the
+## Note
+
+Each piece can be rotated and/or flipped from the orientation in the
 contest.json file.
