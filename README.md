@@ -1,4 +1,4 @@
-# iqblock
+# Contest Description
 
 Given the contest.json input file, output as many unique combinations of
 pieces, that fill the grid up completely, as you can in 5 minutes.
