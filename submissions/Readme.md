@@ -1,6 +1,6 @@
 # Submissions
 
-Submit a pull request with your code that solves the puzzle.
+Submit a pull request with your code that solves the puzzle.  Include instructions on how to invoke your code please.
 
 ## Rules
 
