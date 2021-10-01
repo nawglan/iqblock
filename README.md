@@ -30,3 +30,12 @@ pieces, that fill the grid up completely, as you can in 5 minutes.
 
 Each piece can be rotated and/or flipped from the orientation in the
 contest.json file.
+
+# Submissions
+
+Submit a pull request with your code that solves the puzzle.  Include instructions on how to invoke your code please.
+
+## Rules
+
+1. No pull requests will be approved for binary files.
+2. No pull requests will be approved for entries that use predefined lists of solved grids.
