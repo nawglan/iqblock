@@ -48,3 +48,33 @@ subtest formatting => sub {
     }
   }
 };
+
+# do we have 0 through 9 represented in the right numbers??
+subtest simple_checks => sub {
+  my $check = hash{
+    field "0" => 6;
+    field "1" => 7;
+    field "2" => 8;
+    field "3" => 6;
+    field "4" => 8;
+    field "5" => 5;
+    field "6" => 4;
+    field "7" => 5;
+    field "8" => 8;
+    field "9" => 7;
+    end;
+  };
+
+  foreach my $key (keys %entries) {
+    my $entry = $entries{$key};
+    my %sizes;
+    foreach my $line (@$entry) {
+      my @digits = split(//, $line);
+      $sizes{"$_"}++ foreach @digits;
+    }
+
+    is (\%sizes, $check, "correct counts for each piece");
+  }
+};
+
+done_testing();
